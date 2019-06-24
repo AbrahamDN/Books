@@ -325,7 +325,7 @@ footer {
     padding: 14vmin 18vmin;
 }
 
-footer p>span {
+footer a {
     color: #ff512f;
 }
 
@@ -342,11 +342,19 @@ footer .input-group .input-group-text {
     border: none;
 }
 
-footer .column i,
-footer a {
+footer .column i {
     color: #dd2476;
 }
 
 footer .column i+i {
     padding: 0 0.5em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 999;
+    transition: all 1.5s ease;
 }
