@@ -18,8 +18,9 @@ section {
     --Patua-One: "Patua One", cursive;
     --Lobster: "Lobster", cursive;
     --light-black: #2e2c2caf;
-    --bgGradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --bgGradient: linear-gradient(to bottom, #00BCD4, #8BC34A);
     --light-gray: rgba(255, 255, 255, 0.77);
+    --highlight: #00BCD4;
 }
 
 header a {
@@ -187,7 +188,7 @@ header .container .col-md-7 button {
     padding-top: 3.5vmin;
     margin: 1rem;
     border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, 0.39);
+    box-shadow: 1px 2px 50px 0 rgba(103, 58, 183, 0.35);
 }
 
 .numbers {
@@ -196,7 +197,7 @@ header .container .col-md-7 button {
 
 .numbers .rect h1 {
     font-size: 4.5rem;
-    color: tomato;
+    color: var(--highlight);
 }
 
 .numbers .rect p {
@@ -326,7 +327,7 @@ footer {
 }
 
 footer a {
-    color: #ff512f;
+    color: var(--highlight);
 }
 
 footer input {
@@ -343,7 +344,7 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-    color: #dd2476;
+    color: var(--highlight);
 }
 
 footer .column i+i {
